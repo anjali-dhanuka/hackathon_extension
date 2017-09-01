@@ -1,16 +1,16 @@
 {
-"manifest_version":2,
+  "manifest_version": 2,
 
-"name":"Notifications",
-"description":"This extension gives notifications of the upcoming global contests"
-"version":"1.0",
-"background":{
-	"scripts": ["notify.js"]
-}
-
+  "name": "Notifications",
+  "description": "This gives notifications of the upcoming global contests",
+  "version": "1.0",
 
   "browser_action": {
     "default_icon": "index.png",
     "default_popup": "popup.html"
-  }
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
 }
