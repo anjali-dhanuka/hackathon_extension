@@ -3,12 +3,12 @@
 
   "name": "Notifications",
   "description": "This gives notifications of the upcoming global contests",
+  "background":{"scripts":["bg.js"]},
   "version": "1.0",
 
   "browser_action": {
     "default_icon": "index.png",
     "default_popup": "popup.html"
   },
-  "permissions": 
-  ["http://codeforces.com/api/contest.list","tabs"]
+  "permissions": ["http://codeforces.com/api/contest.list","tabs"]
 }
